@@ -1,0 +1,12 @@
+¿Cómo el patrón Builder ayuda a manejar pizzas predefinidas y personalizadas?
+Patrón Builder consiste en separar la lógica de construcción del producto, haciendo que se puedan manejar las pizzas predefinidas de una forma flexible
+sencilla y estructurada, al igual que las personalizadas. Las pizzas predefinidas estan construidas por concretebuilders, mientras que la personalizada 
+mantiene la misma base pero con una lógica que interactua con el user, reutilizando codigo haciendolo legible y manteniendo la estructura.
+¿Qué ventajas tiene este enfoque si mañana añaden una pizza Hawaiana?
+En caso de que se añadiera una pizza Hawaiana solo sería necesario un nuevo builer con algunas características que las diferencien de las demás pizzas 
+ecapsualda en un concrete builder protegiendo su receta haciendo uso del patron de diseño, que sin aplicarlo nos veriamos en la necesidad de un codigo
+extenso y poco legible.
+¿Cómo garantizamos que las pizzas obligatorias siempre tengan sus ingredientes base?
+Las pizzas obligatorias siempre tienen sus ingredientes base gracias a que los builders siempre definen los ingredientes esenciales a agregar en cada 
+proceso, esto asegura que ninguna pizza se construya incompleta o con erroes. Esta lógica encapsulada en cada clase builder protege la integridad de 
+las recetas garantizando sus ingredientes.
