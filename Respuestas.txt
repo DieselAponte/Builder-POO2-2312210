@@ -1,3 +1,7 @@
+Integrantes:
+Diesel Augusto Aponte Quispe
+Frank Li Figueroa Rodriguez
+
 ¿Cómo el patrón Builder ayuda a manejar pizzas predefinidas y personalizadas?
 Patrón Builder consiste en separar la lógica de construcción del producto, haciendo que se puedan manejar las pizzas predefinidas de una forma flexible
 sencilla y estructurada, al igual que las personalizadas. Las pizzas predefinidas estan construidas por concretebuilders, mientras que la personalizada 
